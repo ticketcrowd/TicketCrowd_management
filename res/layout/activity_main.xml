@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33B5E5"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="eu.AliApps.ticketcrowd_management.MainActivity" >
+
+    <Button
+        android:id="@+id/main_btnScan"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:onClick="ScanOffer"
+        android:background="@drawable/scan_2"/>
+
+    <Button
+        android:id="@+id/main_btnOfferList"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/main_btnScan"
+        android:onClick="OfferList"
+        android:background="@drawable/list_2" />
+
+    <Button
+        android:id="@+id/main_btnStatistics"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/main_btnOfferList"
+        android:onClick="Statistics"
+        android:background="@drawable/estadisticas" />
+
+    <Button
+        android:id="@+id/main_btnLogOut"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="Exit"
+        android:background="@drawable/exit_icon_2" />
+
+</RelativeLayout>

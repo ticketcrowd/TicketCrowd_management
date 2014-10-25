@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TicketCrowd</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scan_offer">Scan Offer</string>
+    <string name="title_activity_offer_list">Offer List</string>
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="title_activity_offer_detail">Offer Detail</string>
+    <string name="title_activity_newoffer">New Offer</string>
+    <string name="title_activity_editoffer">Edit Offer</string>
+    <string name="title_activity_login">TicketCrowd</string>
+    
+    <!-- Main Activity -->
+    <string name="main_btnScan">Escaneo de Oferta</string>
+    <string name="main_btnOfferList">Listado de Ofertas</string>
+    <string name="main_btnStatistics">Estadísticas recogidas</string>
+    <string name="main_btnLogOut">Salir</string>
+    
+    <!-- Offer List -->
+    <string name="offerlist_btnNewOffer">Añadir Oferta</string>
+    
+    <!-- New Offer -->
+    <string name="newoffer_addname">Nombre de la oferta</string>
+    <string name="newoffer_adddescription">Descripción</string>
+    <string name="newoffer_addiditem">Id del producto</string>
+    <string name="newoffer_addmax">Número máximo de descuento</string>
+    <string name="newoffer_adddiscount">Descuento por cada usuario compartido</string>
+    <string name="newoffer_btnAdd">Agregar</string>
+    
+    <!-- Edit Offer -->
+    <string name="editoffer_name">Nombre de la oferta</string>
+    <string name="editoffer_adddescription">Descripción</string>
+    <string name="editoffer_addiditem">Id del producto</string>
+    <string name="editoffer_addmax">Número máximo de descuento</string>
+    <string name="editoffer_adddiscount">Descuento por cada usuario compartido</string>
+    <string name="editoffer_btnAdd">Editar</string>
+    <string name="editoffer_btnErase">Eliminar</string>
+    
+    <!-- Statistics -->
+    <string name="statistics_title">Estadísticas</string>
+    
+    <!-- Scan Offer -->
+    <string name="scanoffer_btn">Scan</string>
+    
+    <!-- Login -->
+    <string name="login_password">Password</string>
+    <string name="login_Email">E-mail</string>
+    <string name="login_login">Login</string>
+    
+</resources>

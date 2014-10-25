@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditNotaActivity"
+    android:background="#33B5E5"  >
+
+    <EditText
+        android:id="@+id/editoffer_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/editoffer_name">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editoffer_adddescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editoffer_name"
+        android:ems="10"
+        android:hint="@string/editoffer_adddescription"
+        android:inputType="text"
+        android:lines="5"
+        android:maxLines="5"
+        android:padding="10dp" />
+    
+<EditText
+        android:id="@+id/editoffer_addiditem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editoffer_adddescription"
+        android:ems="10"
+        android:hint="@string/editoffer_addiditem"
+        android:inputType="number"
+        android:lines="5"
+        android:maxLines="5"
+        android:padding="10dp" />
+    <EditText
+        android:id="@+id/editoffer_adddiscount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editoffer_addiditem"
+        android:ems="10"
+        android:hint="@string/editoffer_adddiscount"
+        android:inputType="number"
+        android:lines="5"
+        android:maxLines="5"
+        android:padding="10dp" />
+
+    
+
+    <EditText
+        android:id="@+id/editoffer_addmax"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editoffer_adddiscount"
+        android:ems="10"
+        android:hint="@string/editoffer_addmax"
+        android:inputType="number"
+        android:lines="5"
+        android:maxLines="5"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/editoffer_btnErase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:onClick="eraseOffer"
+        android:text="@string/editoffer_btnErase" />
+    
+    <Button
+        android:id="@+id/editoffer_btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editoffer_btnErase"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/editoffer_btnAdd" />
+    
+</RelativeLayout>
